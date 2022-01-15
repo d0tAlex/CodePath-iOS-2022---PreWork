@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F414DDE92793312700DF94E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DDE82793312700DF94E3 /* AppDelegate.swift */; };
+		F414DDEB2793312700DF94E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DDEA2793312700DF94E3 /* SceneDelegate.swift */; };
+		F414DDED2793312700DF94E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DDEC2793312700DF94E3 /* ViewController.swift */; };
+		F414DDF02793312700DF94E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F414DDEE2793312700DF94E3 /* Main.storyboard */; };
+		F414DDF22793312900DF94E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F414DDF12793312900DF94E3 /* Assets.xcassets */; };
+		F414DDF52793312900DF94E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F414DDF32793312900DF94E3 /* LaunchScreen.storyboard */; };
+		F414DE002793312900DF94E3 /* CodePath_2022_PreWork_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DDFF2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentTests.swift */; };
+		F414DE0A2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DE092793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITests.swift */; };
+		F414DE0C2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414DE0B2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F414DDFC2793312900DF94E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F414DDDD2793312700DF94E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F414DDE42793312700DF94E3;
+			remoteInfo = "CodePath 2022 PreWork Assignment";
+		};
+		F414DE062793312900DF94E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F414DDDD2793312700DF94E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F414DDE42793312700DF94E3;
+			remoteInfo = "CodePath 2022 PreWork Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F414DDE52793312700DF94E3 /* CodePath 2022 PreWork Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodePath 2022 PreWork Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414DDE82793312700DF94E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F414DDEA2793312700DF94E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F414DDEC2793312700DF94E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F414DDEF2793312700DF94E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F414DDF12793312900DF94E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F414DDF42793312900DF94E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F414DDF62793312900DF94E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F414DDFB2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodePath 2022 PreWork AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414DDFF2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePath_2022_PreWork_AssignmentTests.swift; sourceTree = "<group>"; };
+		F414DE052793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodePath 2022 PreWork AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F414DE092793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePath_2022_PreWork_AssignmentUITests.swift; sourceTree = "<group>"; };
+		F414DE0B2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F414DDE22793312700DF94E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DDF82793312900DF94E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DE022793312900DF94E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F414DDDC2793312700DF94E3 = {
+			isa = PBXGroup;
+			children = (
+				F414DDE72793312700DF94E3 /* CodePath 2022 PreWork Assignment */,
+				F414DDFE2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests */,
+				F414DE082793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests */,
+				F414DDE62793312700DF94E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F414DDE62793312700DF94E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F414DDE52793312700DF94E3 /* CodePath 2022 PreWork Assignment.app */,
+				F414DDFB2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests.xctest */,
+				F414DE052793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F414DDE72793312700DF94E3 /* CodePath 2022 PreWork Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				F414DDE82793312700DF94E3 /* AppDelegate.swift */,
+				F414DDEA2793312700DF94E3 /* SceneDelegate.swift */,
+				F414DDEC2793312700DF94E3 /* ViewController.swift */,
+				F414DDEE2793312700DF94E3 /* Main.storyboard */,
+				F414DDF12793312900DF94E3 /* Assets.xcassets */,
+				F414DDF32793312900DF94E3 /* LaunchScreen.storyboard */,
+				F414DDF62793312900DF94E3 /* Info.plist */,
+			);
+			path = "CodePath 2022 PreWork Assignment";
+			sourceTree = "<group>";
+		};
+		F414DDFE2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F414DDFF2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentTests.swift */,
+			);
+			path = "CodePath 2022 PreWork AssignmentTests";
+			sourceTree = "<group>";
+		};
+		F414DE082793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F414DE092793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITests.swift */,
+				F414DE0B2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "CodePath 2022 PreWork AssignmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F414DDE42793312700DF94E3 /* CodePath 2022 PreWork Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414DE0F2793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork Assignment" */;
+			buildPhases = (
+				F414DDE12793312700DF94E3 /* Sources */,
+				F414DDE22793312700DF94E3 /* Frameworks */,
+				F414DDE32793312700DF94E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodePath 2022 PreWork Assignment";
+			productName = "CodePath 2022 PreWork Assignment";
+			productReference = F414DDE52793312700DF94E3 /* CodePath 2022 PreWork Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F414DDFA2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414DE122793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork AssignmentTests" */;
+			buildPhases = (
+				F414DDF72793312900DF94E3 /* Sources */,
+				F414DDF82793312900DF94E3 /* Frameworks */,
+				F414DDF92793312900DF94E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F414DDFD2793312900DF94E3 /* PBXTargetDependency */,
+			);
+			name = "CodePath 2022 PreWork AssignmentTests";
+			productName = "CodePath 2022 PreWork AssignmentTests";
+			productReference = F414DDFB2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F414DE042793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F414DE152793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork AssignmentUITests" */;
+			buildPhases = (
+				F414DE012793312900DF94E3 /* Sources */,
+				F414DE022793312900DF94E3 /* Frameworks */,
+				F414DE032793312900DF94E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F414DE072793312900DF94E3 /* PBXTargetDependency */,
+			);
+			name = "CodePath 2022 PreWork AssignmentUITests";
+			productName = "CodePath 2022 PreWork AssignmentUITests";
+			productReference = F414DE052793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F414DDDD2793312700DF94E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F414DDE42793312700DF94E3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F414DDFA2793312900DF94E3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F414DDE42793312700DF94E3;
+					};
+					F414DE042793312900DF94E3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F414DDE42793312700DF94E3;
+					};
+				};
+			};
+			buildConfigurationList = F414DDE02793312700DF94E3 /* Build configuration list for PBXProject "CodePath 2022 PreWork Assignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F414DDDC2793312700DF94E3;
+			productRefGroup = F414DDE62793312700DF94E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F414DDE42793312700DF94E3 /* CodePath 2022 PreWork Assignment */,
+				F414DDFA2793312900DF94E3 /* CodePath 2022 PreWork AssignmentTests */,
+				F414DE042793312900DF94E3 /* CodePath 2022 PreWork AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F414DDE32793312700DF94E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414DDF52793312900DF94E3 /* LaunchScreen.storyboard in Resources */,
+				F414DDF22793312900DF94E3 /* Assets.xcassets in Resources */,
+				F414DDF02793312700DF94E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DDF92793312900DF94E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DE032793312900DF94E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F414DDE12793312700DF94E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414DDED2793312700DF94E3 /* ViewController.swift in Sources */,
+				F414DDE92793312700DF94E3 /* AppDelegate.swift in Sources */,
+				F414DDEB2793312700DF94E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DDF72793312900DF94E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414DE002793312900DF94E3 /* CodePath_2022_PreWork_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F414DE012793312900DF94E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F414DE0C2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITestsLaunchTests.swift in Sources */,
+				F414DE0A2793312900DF94E3 /* CodePath_2022_PreWork_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F414DDFD2793312900DF94E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F414DDE42793312700DF94E3 /* CodePath 2022 PreWork Assignment */;
+			targetProxy = F414DDFC2793312900DF94E3 /* PBXContainerItemProxy */;
+		};
+		F414DE072793312900DF94E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F414DDE42793312700DF94E3 /* CodePath 2022 PreWork Assignment */;
+			targetProxy = F414DE062793312900DF94E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F414DDEE2793312700DF94E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F414DDEF2793312700DF94E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F414DDF32793312900DF94E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F414DDF42793312900DF94E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F414DE0D2793312900DF94E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F414DE0E2793312900DF94E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F414DE102793312900DF94E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CodePath 2022 PreWork Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F414DE112793312900DF94E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CodePath 2022 PreWork Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F414DE132793312900DF94E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodePath 2022 PreWork Assignment.app/CodePath 2022 PreWork Assignment";
+			};
+			name = Debug;
+		};
+		F414DE142793312900DF94E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodePath 2022 PreWork Assignment.app/CodePath 2022 PreWork Assignment";
+			};
+			name = Release;
+		};
+		F414DE162793312900DF94E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodePath 2022 PreWork Assignment";
+			};
+			name = Debug;
+		};
+		F414DE172793312900DF94E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dotAlexX.CodePath-2022-PreWork-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodePath 2022 PreWork Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F414DDE02793312700DF94E3 /* Build configuration list for PBXProject "CodePath 2022 PreWork Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414DE0D2793312900DF94E3 /* Debug */,
+				F414DE0E2793312900DF94E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414DE0F2793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414DE102793312900DF94E3 /* Debug */,
+				F414DE112793312900DF94E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414DE122793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414DE132793312900DF94E3 /* Debug */,
+				F414DE142793312900DF94E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F414DE152793312900DF94E3 /* Build configuration list for PBXNativeTarget "CodePath 2022 PreWork AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F414DE162793312900DF94E3 /* Debug */,
+				F414DE172793312900DF94E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F414DDDD2793312700DF94E3 /* Project object */;
+}
