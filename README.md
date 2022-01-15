@@ -34,7 +34,7 @@ GIF created with [ezgif](https://ezgif.com).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Faced a compiling error because of a typo on a linked textfield.
 
 ## License
 
